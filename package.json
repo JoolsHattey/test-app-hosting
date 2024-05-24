@@ -9,6 +9,9 @@
     "test": "ng test",
     "serve:ssr:test": "node dist/test/server/server.mjs"
   },
+  "engines": {
+    "node": "20"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^18.0.0",
